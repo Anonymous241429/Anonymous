@@ -1,0 +1,802 @@
+wpa_supplicant v2.9
+random: Trying to read entropy from /dev/random
+Successfully initialized wpa_supplicant
+Initializing interface 'wlp3s0' conf '/etc/wpa_supplicant/wpa_supplicant.conf.backup2' driver 'default' ctrl_interface 'N/A' bridge 'N/A'
+Configuration file '/etc/wpa_supplicant/wpa_supplicant.conf.backup2' -> '/etc/wpa_supplicant/wpa_supplicant.conf.backup2'
+Reading configuration file '/etc/wpa_supplicant/wpa_supplicant.conf.backup2'
+Priority group 0
+   id=0 ssid='wifipi'
+nl80211: TDLS supported
+nl80211: TDLS external setup
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Supported cipher 00-0f-ac:10
+nl80211: Supported cipher 00-0f-ac:8
+nl80211: Supported cipher 00-0f-ac:9
+nl80211: Supported cipher 00-0f-ac:6
+nl80211: Supported cipher 00-0f-ac:13
+nl80211: Supported cipher 00-0f-ac:11
+nl80211: Supported cipher 00-0f-ac:12
+nl80211: Using driver-based off-channel TX
+nl80211: Driver-advertised extended capabilities (default) - hexdump(len=8): 00 00 00 00 00 00 00 40
+nl80211: Driver-advertised extended capabilities mask (default) - hexdump(len=8): 00 00 00 00 00 00 00 40
+nl80211: interface wlp3s0 in phy phy0
+nl80211: Set mode ifindex 3 iftype 2 (STATION)
+nl80211: Subscribe to mgmt frames with non-AP handle 0x5606d60efcd0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x5606d60efcd0 match=06
+nl80211: kernel reports: Match already configured
+nl80211: Register frame command failed (type=208): ret=-114 (Operation already in progress)
+nl80211: Register frame match - hexdump(len=1): 06
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x5606d60efcd0 match=0a07
+nl80211: kernel reports: Match already configured
+nl80211: Register frame command failed (type=208): ret=-114 (Operation already in progress)
+nl80211: Register frame match - hexdump(len=2): 0a 07
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x5606d60efcd0 match=0a11
+nl80211: kernel reports: Match already configured
+nl80211: Register frame command failed (type=208): ret=-114 (Operation already in progress)
+nl80211: Register frame match - hexdump(len=2): 0a 11
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x5606d60efcd0 match=1101
+nl80211: kernel reports: Match already configured
+nl80211: Register frame command failed (type=208): ret=-114 (Operation already in progress)
+nl80211: Register frame match - hexdump(len=2): 11 01
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x5606d60efcd0 match=1102
+nl80211: kernel reports: Match already configured
+nl80211: Register frame command failed (type=208): ret=-114 (Operation already in progress)
+nl80211: Register frame match - hexdump(len=2): 11 02
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x5606d60efcd0 match=0505
+nl80211: kernel reports: Match already configured
+nl80211: Register frame command failed (type=208): ret=-114 (Operation already in progress)
+nl80211: Register frame match - hexdump(len=2): 05 05
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x5606d60efcd0 match=0500
+nl80211: kernel reports: Match already configured
+nl80211: Register frame command failed (type=208): ret=-114 (Operation already in progress)
+nl80211: Register frame match - hexdump(len=2): 05 00
+nl80211: Failed to register Action frame processing - ignore for now
+rfkill: initial event: idx=0 type=1 op=0 soft=0 hard=0
+netlink: Operstate: ifindex=3 linkmode=1 (userspace-control), operstate=5 (IF_OPER_DORMANT)
+Add interface wlp3s0 to a new radio phy0
+nl80211: Regulatory information - country=IN
+nl80211: 2402-2482 @ 40 MHz 20 mBm
+nl80211: 5150-5250 @ 80 MHz 30 mBm
+nl80211: 5250-5350 @ 80 MHz 24 mBm
+nl80211: 5470-5725 @ 160 MHz 24 mBm
+nl80211: 5725-5875 @ 80 MHz 30 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484[DISABLED][NO_IR]
+nl80211: Mode IEEE 802.11a: 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484[DISABLED][NO_IR]
+wlp3s0: Own MAC address: 64:6c:80:0b:e3:47
+wpa_driver_nl80211_set_key: ifindex=3 (wlp3s0) alg=0 addr=(nil) key_idx=0 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=3 (wlp3s0) alg=0 addr=(nil) key_idx=1 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=3 (wlp3s0) alg=0 addr=(nil) key_idx=2 set_tx=0 seq_len=0 key_len=0
+wpa_driver_nl80211_set_key: ifindex=3 (wlp3s0) alg=0 addr=(nil) key_idx=3 set_tx=0 seq_len=0 key_len=0
+wlp3s0: RSN: flushing PMKID list in the driver
+nl80211: Flush PMKIDs
+wlp3s0: Setting scan request: 0.100000 sec
+wlp3s0: WPS: UUID based on MAC address: 437ffa96-0a17-5e00-b2dc-a3ba5a428384
+ENGINE: Loading builtin engines
+ENGINE: Loading builtin engines
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: KEY_RX entering state NO_KEY_RECEIVE
+EAPOL: SUPP_BE entering state INITIALIZE
+EAP: EAP entering state DISABLED
+wlp3s0: Added interface wlp3s0
+wlp3s0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+random: Got 20/20 bytes from /dev/random
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=5 linkmode=1 ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=6 linkmode=1 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=5 linkmode=1 ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=6 linkmode=1 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+wlp3s0: State: DISCONNECTED -> SCANNING
+Scan SSID - hexdump_ascii(len=6):
+     77 69 66 69 70 69                                 wifipi          
+wlp3s0: Starting AP scan for wildcard SSID
+wlp3s0: Add radio work 'scan'@0x5606d611a550
+wlp3s0: First radio work item in the queue - schedule start immediately
+wlp3s0: Starting radio work 'scan'@0x5606d611a550 after 0.000004 second wait
+wlp3s0: nl80211: scan request
+Scan requested (ret=0) - scan timeout 10 seconds
+nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlp3s0
+wlp3s0: nl80211: Scan trigger
+wlp3s0: Event SCAN_STARTED (47) received
+wlp3s0: Own scan request started a scan in 0.000043 seconds
+EAPOL: disable timer tick
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlp3s0
+wlp3s0: nl80211: New scan results available
+nl80211: Scan probed for SSID 'wifipi'
+nl80211: Scan probed for SSID ''
+nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+wlp3s0: Event SCAN_RESULTS (3) received
+wlp3s0: Scan completed in 6.908111 seconds
+nl80211: Received scan results (8 BSSes)
+nl80211: Scan results indicate BSS status with 94:bf:c4:0b:25:ec as associated
+nl80211: Local state (not associated) does not match with BSS state
+nl80211: Clear possible state mismatch (94:bf:c4:0b:25:ec)
+wlp3s0: nl80211: MLME command failed: reason=2 ret=-1 (Operation not permitted)
+wlp3s0: BSS: Start scan result update 1
+wlp3s0: BSS: Add new id 0 BSSID 98:da:c4:3e:ee:4e SSID 'cyberes_5G' freq 5220
+wlp3s0: BSS: Add new id 1 BSSID 94:bf:c4:0b:25:ec SSID 'BITS-WIFI' freq 5200
+wlp3s0: BSS: Add new id 2 BSSID 98:da:c4:3e:ee:4f SSID 'cyberes' freq 2472
+wlp3s0: BSS: Add new id 3 BSSID 94:bf:c4:0b:25:e8 SSID 'BITS-WIFI' freq 2447
+wlp3s0: BSS: Add new id 4 BSSID b8:50:01:8a:e8:40 SSID 'BITS-WIFI' freq 2462
+wlp3s0: BSS: Add new id 5 BSSID aa:06:18:62:2c:8b SSID 'wifipi' freq 2437
+wlp3s0: BSS: Add new id 6 BSSID b8:50:01:8c:4c:e0 SSID 'BITS-WIFI' freq 5220
+wlp3s0: BSS: Add new id 7 BSSID 62:01:94:b9:23:ec SSID 'SmartLife-23EC' freq 2412
+BSS: last_scan_res_used=8/32
+wlp3s0: New scan results available (own=1 ext=0)
+WPS: AP 98:da:c4:3e:ee:4e type 0 added
+WPS: AP 98:da:c4:3e:ee:4f type 0 added
+WPS: AP[0] 98:da:c4:3e:ee:4e type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+WPS: AP[1] 98:da:c4:3e:ee:4f type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+wlp3s0: Radio work 'scan'@0x5606d611a550 done in 6.964118 seconds
+wlp3s0: radio_work_free('scan'@0x5606d611a550): num_active_works --> 0
+wlp3s0: Selecting BSS from priority group 0
+wlp3s0: 0: 98:da:c4:3e:ee:4e ssid='cyberes_5G' wpa_ie_len=0 rsn_ie_len=20 caps=0x1111 level=-46 freq=5220  wps
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 1: 94:bf:c4:0b:25:ec ssid='BITS-WIFI' wpa_ie_len=0 rsn_ie_len=20 caps=0x111 level=-64 freq=5200 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 2: 98:da:c4:3e:ee:4f ssid='cyberes' wpa_ie_len=0 rsn_ie_len=20 caps=0x1431 level=-32 freq=2472  wps
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 3: 94:bf:c4:0b:25:e8 ssid='BITS-WIFI' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 freq=2447 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 4: b8:50:01:8a:e8:40 ssid='BITS-WIFI' wpa_ie_len=24 rsn_ie_len=24 caps=0x1411 level=-62 freq=2462 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 5: aa:06:18:62:2c:8b ssid='wifipi' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-48 freq=2437 
+wlp3s0:    selected based on RSN IE
+wlp3s0:    selected BSS aa:06:18:62:2c:8b ssid='wifipi'
+wlp3s0: Considering connect request: reassociate: 0  selected: aa:06:18:62:2c:8b  bssid: 00:00:00:00:00:00  pending: 00:00:00:00:00:00  wpa_state: SCANNING  ssid=0x5606d60f0120  current_ssid=(nil)
+wlp3s0: Request association with aa:06:18:62:2c:8b
+wlp3s0: No ongoing scan/p2p-scan found to abort
+wlp3s0: Add radio work 'sme-connect'@0x5606d611a550
+wlp3s0: First radio work item in the queue - schedule start immediately
+RSN: Ignored PMKID candidate without preauth flag
+wlp3s0: Starting radio work 'sme-connect'@0x5606d611a550 after 0.000007 second wait
+wlp3s0: WPA: clearing own WPA/RSN IE
+wlp3s0: Automatic auth_alg selection: 0x1
+RSN: PMKSA cache search - network_ctx=(nil) try_opportunistic=0 akmp=0x0
+RSN: Search for BSSID aa:06:18:62:2c:8b
+RSN: No PMKSA cache entry found
+wlp3s0: RSN: using IEEE 802.11i/D9.0
+wlp3s0: WPA: Selected cipher suites: group 16 pairwise 16 key_mgmt 2 proto 2
+wlp3s0: WPA: clearing AP WPA IE
+WPA: set AP RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+wlp3s0: WPA: AP group 0x10 network profile group 0x18; available group 0x10
+wlp3s0: WPA: using GTK CCMP
+wlp3s0: WPA: AP pairwise 0x10 network profile pairwise 0x18; available pairwise 0x10
+wlp3s0: WPA: using PTK CCMP
+wlp3s0: WPA: AP key_mgmt 0x2 network profile key_mgmt 0x2; available key_mgmt 0x2
+wlp3s0: WPA: using KEY_MGMT WPA-PSK
+WPA: Set own WPA IE default - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+WPA: Set PMK based on external data - hexdump(len=32): [REMOVED]
+RRM: Determining whether RRM can be used - device support: 0x10
+RRM: No RRM in network
+Added supported operating classes IE - hexdump(len=22): 3b 14 51 51 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82
+EAPOL: External notification - EAP success=0
+EAPOL: External notification - EAP fail=0
+EAPOL: External notification - portControl=Auto
+wlp3s0: Cancelling scan request
+wlp3s0: SME: Trying to authenticate with aa:06:18:62:2c:8b (SSID='wifipi' freq=2440 MHz)
+EAPOL: External notification - portValid=0
+wlp3s0: State: SCANNING -> AUTHENTICATING
+nl80211: Authenticate (ifindex=3)
+  * bssid=aa:06:18:62:2c:8b
+  * freq=2437
+  * SSID=wifipi
+  * IEs - hexdump(len=0): [NULL]
+  * Auth Type Anonymous 0
+nl80211: Authentication request send successfully Anonymous
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1003 ([UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: Drv Event 20 (NL80211_CMD_DEL_STATION) received for wlp3s0
+nl80211: Delete station 94:bf:c4:0b:25:ec
+nl80211: Drv Event 39 (NL80211_CMD_DEAUTHENTICATE) received for wlp3s0
+nl80211: Deauthenticate event
+wlp3s0: Event DEAUTH (11) received
+wlp3s0: Deauthentication notification
+wlp3s0:  * reason 1 (UNSPECIFIED) locally_generated=1
+wlp3s0:  * address 94:bf:c4:0b:25:ec
+Deauthentication frame IE(s) - hexdump(len=0): [NULL]
+wlp3s0: CTRL-EVENT-DISCONNECTED bssid=aa:06:18:62:2c:8b reason=1 locally_generated=1
+wlp3s0: Auto connect enabled: try to reconnect (wps=0/0 wpa_state=4)
+wlp3s0: Do not request new immediate scan
+wlp3s0: Radio work 'sme-connect'@0x5606d611a550 done in 0.735609 seconds
+wlp3s0: radio_work_free('sme-connect'@0x5606d611a550): num_active_works --> 0
+Added BSSID aa:06:18:62:2c:8b into blacklist
+wlp3s0: Blacklist count 1 --> request scan in 100 ms
+wlp3s0: Setting scan request: 0.100000 sec
+wlp3s0: WPA: Clear old PMK and PTK
+wlp3s0: Disconnect event - remove keys
+wlp3s0: State: AUTHENTICATING -> DISCONNECTED
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+EAPOL: External notification - portEnabled=0
+EAPOL: External notification - portValid=0
+EAPOL: External notification - EAP success=0
+wlp3s0: SME: Allow pending authentication to proceed after disconnection event
+wlp3s0: State: DISCONNECTED -> AUTHENTICATING
+nl80211: Drv Event 48 (NL80211_CMD_DISCONNECT) received for wlp3s0
+nl80211: Ignore disconnect event when using userspace SME
+nl80211: Drv Event 19 (NL80211_CMD_NEW_STATION) received for wlp3s0
+nl80211: New station aa:06:18:62:2c:8b
+nl80211: Drv Event 36 (NL80211_CMD_REG_CHANGE) received for wlp3s0
+nl80211: Regulatory domain change
+ * initiator=0
+ * type=1
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472[NO_IR] 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200[NO_IR] 5220[NO_IR] 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472[NO_IR] 2484[NO_IR]
+nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlp3s0
+wlp3s0: nl80211: Scan trigger
+wlp3s0: Event SCAN_STARTED (47) received
+wlp3s0: External program started a scan
+Scan SSID - hexdump_ascii(len=6):
+     77 69 66 69 70 69                                 wifipi          
+wlp3s0: Starting AP scan for wildcard SSID
+wlp3s0: Add radio work 'scan'@0x5606d611a550
+wlp3s0: First radio work item in the queue - schedule start immediately
+Delay radio work start until externally triggered scan completes
+nl80211: Drv Event 42 (NL80211_CMD_REG_BEACON_HINT) received for wlp3s0
+nl80211: Regulatory beacon hint
+nl80211: Channel (before): freq=5220 max_tx_power=2000 no-IR
+nl80211: Channel (after): freq=5220 max_tx_power=2000
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472[NO_IR] 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200[NO_IR] 5220 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR] 5560[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472[NO_IR] 2484[NO_IR]
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlp3s0
+wlp3s0: nl80211: New scan results available
+nl80211: Scan probed for SSID 'BITS-WIFI'
+nl80211: Scan probed for SSID ''
+nl80211: Scan included frequencies: 2447 2462 5220
+wlp3s0: Event SCAN_RESULTS (3) received
+nl80211: Received scan results (8 BSSes)
+wlp3s0: BSS: Start scan result update 2
+BSS: last_scan_res_used=8/32
+wlp3s0: New scan results available (own=0 ext=1)
+wlp3s0: Do not use results from externally requested scan operation for network selection
+wlp3s0: Starting radio work 'scan'@0x5606d611a550 after 0.231990 second wait
+wlp3s0: nl80211: scan request
+Scan requested (ret=0) - scan timeout 30 seconds
+nl80211: Drv Event 37 (NL80211_CMD_AUTHENTICATE) received for wlp3s0
+nl80211: Authenticate event
+wlp3s0: Event AUTH (10) received
+wlp3s0: SME: Authentication response: peer=aa:06:18:62:2c:8b auth_type=0 auth_transaction=2 status_code=0
+SME: Authentication response IEs Anonymous - hexdump(len=0): [NULL]
+SME: Association Request IEs - hexdump(len=54): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 7f 08 00 00 00 00 00 00 00 40 3b 14 51 51 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82
+wlp3s0: Trying to associate with aa:06:18:62:2c:8b (SSID='wifipi' freq=2440 MHz)
+wlp3s0: State: AUTHENTICATING -> ASSOCIATING
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+WPA: set own WPA/RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+nl80211: Associate (ifindex=3)
+  * bssid=aa:06:18:62:2c:8b
+  * freq=2437
+  * SSID=wifipi
+  * IEs - hexdump(len=54): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 7f 08 00 00 00 00 00 00 00 40 3b 14 51 51 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82
+  * WPA Versions 0x2
+  * pairwise=0xfac04
+  * group=0xfac04
+wlp3s0: nl80211: MLME command failed (assoc): ret=-16 (Device or resource busy)
+nl80211: Scan result dump
+nl80211: 0 98:da:c4:3e:ee:4e 5220
+nl80211: 1 b8:50:01:8c:4c:e0 5220
+nl80211: 2 98:da:c4:3e:ee:4f 2472
+nl80211: 3 94:bf:c4:0b:25:ec 5200
+nl80211: 4 62:01:94:b9:23:ec 2412
+nl80211: 5 94:bf:c4:0b:25:e8 2447
+nl80211: 6 aa:06:18:62:2c:8b 2437
+nl80211: 7 b8:50:01:8a:e8:40 2462
+wlp3s0: SME: Association request to the driver failed
+BSSID aa:06:18:62:2c:8b blacklist count incremented to 2
+wlp3s0: Blacklist count 2 --> request scan in 500 ms
+wlp3s0: Setting scan request: 0.500000 sec
+wlp3s0: State: ASSOCIATING -> DISCONNECTED
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlp3s0
+wlp3s0: nl80211: Scan trigger
+wlp3s0: Event SCAN_STARTED (47) received
+wlp3s0: Own scan request started a scan in 0.031817 seconds
+nl80211: Drv Event 20 (NL80211_CMD_DEL_STATION) received for wlp3s0
+nl80211: Delete station aa:06:18:62:2c:8b
+nl80211: Drv Event 19 (NL80211_CMD_NEW_STATION) received for wlp3s0
+nl80211: New station 94:bf:c4:0b:25:e8
+nl80211: Drv Event 35 (NL80211_CMD_SCAN_ABORTED) received for wlp3s0
+wlp3s0: nl80211: Scan aborted
+nl80211: Scan probed for SSID 'wifipi'
+nl80211: Scan probed for SSID ''
+nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+wlp3s0: Event SCAN_RESULTS (3) received
+wlp3s0: Scan completed in 0.000044 seconds
+nl80211: Received scan results (8 BSSes)
+wlp3s0: BSS: Start scan result update 3
+wlp3s0: New scan results available (own=1 ext=0)
+WPS: AP[0] 98:da:c4:3e:ee:4e type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+WPS: AP[1] 98:da:c4:3e:ee:4f type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+wlp3s0: Radio work 'scan'@0x5606d611a550 done in 0.032338 seconds
+wlp3s0: radio_work_free('scan'@0x5606d611a550): num_active_works --> 0
+wlp3s0: Scan results matching the currently selected network
+wlp3s0: Selecting BSS from priority group 0
+wlp3s0: 0: 98:da:c4:3e:ee:4e ssid='cyberes_5G' wpa_ie_len=0 rsn_ie_len=20 caps=0x1111 level=-45 freq=5220  wps
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 1: 94:bf:c4:0b:25:ec ssid='BITS-WIFI' wpa_ie_len=0 rsn_ie_len=20 caps=0x111 level=-64 freq=5200 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 2: 98:da:c4:3e:ee:4f ssid='cyberes' wpa_ie_len=0 rsn_ie_len=20 caps=0x1431 level=-32 freq=2472  wps
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 3: 94:bf:c4:0b:25:e8 ssid='BITS-WIFI' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 freq=2447 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 4: b8:50:01:8a:e8:40 ssid='BITS-WIFI' wpa_ie_len=24 rsn_ie_len=24 caps=0x1411 level=-62 freq=2462 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 5: aa:06:18:62:2c:8b ssid='wifipi' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-48 freq=2437 
+wlp3s0:    skip - blacklisted (count=2 limit=0)
+wlp3s0: 6: b8:50:01:8c:4c:e0 ssid='BITS-WIFI' wpa_ie_len=24 rsn_ie_len=24 caps=0x1011 level=-74 freq=5220 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 7: 62:01:94:b9:23:ec ssid='SmartLife-23EC' wpa_ie_len=0 rsn_ie_len=0 caps=0x1 level=-44 freq=2412 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: No APs found - clear blacklist and try again
+Removed BSSID aa:06:18:62:2c:8b from blacklist (clear)
+wlp3s0: Scan results matching the currently selected network
+wlp3s0: 5: aa:06:18:62:2c:8b freq=2437 level=-48 snr=41 est_throughput=54000
+wlp3s0: Selecting BSS from priority group 0
+wlp3s0: 0: 98:da:c4:3e:ee:4e ssid='cyberes_5G' wpa_ie_len=0 rsn_ie_len=20 caps=0x1111 level=-45 freq=5220  wps
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 1: 94:bf:c4:0b:25:ec ssid='BITS-WIFI' wpa_ie_len=0 rsn_ie_len=20 caps=0x111 level=-64 freq=5200 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 2: 98:da:c4:3e:ee:4f ssid='cyberes' wpa_ie_len=0 rsn_ie_len=20 caps=0x1431 level=-32 freq=2472  wps
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 3: 94:bf:c4:0b:25:e8 ssid='BITS-WIFI' wpa_ie_len=0 rsn_ie_len=20 caps=0x431 level=-60 freq=2447 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 4: b8:50:01:8a:e8:40 ssid='BITS-WIFI' wpa_ie_len=24 rsn_ie_len=24 caps=0x1411 level=-62 freq=2462 
+wlp3s0:    skip - SSID mismatch
+wlp3s0: 5: aa:06:18:62:2c:8b ssid='wifipi' wpa_ie_len=0 rsn_ie_len=20 caps=0x411 level=-48 freq=2437 
+wlp3s0:    selected based on RSN IE
+wlp3s0:    selected BSS aa:06:18:62:2c:8b ssid='wifipi'
+wlp3s0: Considering connect request: reassociate: 0  selected: aa:06:18:62:2c:8b  bssid: 00:00:00:00:00:00  pending: 00:00:00:00:00:00  wpa_state: DISCONNECTED  ssid=0x5606d60f0120  current_ssid=0x5606d60f0120
+wlp3s0: Request association with aa:06:18:62:2c:8b
+wlp3s0: Re-association to the same ESS
+wlp3s0: No ongoing scan/p2p-scan found to abort
+wlp3s0: Add radio work 'sme-connect'@0x5606d611a550
+wlp3s0: First radio work item in the queue - schedule start immediately
+RSN: Ignored PMKID candidate without preauth flag
+wlp3s0: Starting radio work 'sme-connect'@0x5606d611a550 after 0.000006 second wait
+wlp3s0: WPA: clearing own WPA/RSN IE
+wlp3s0: Automatic auth_alg selection: 0x1
+RSN: PMKSA cache search - network_ctx=0x5606d60f0120 try_opportunistic=0 akmp=0x0
+RSN: Search for BSSID aa:06:18:62:2c:8b
+RSN: No PMKSA cache entry found
+wlp3s0: RSN: using IEEE 802.11i/D9.0
+wlp3s0: WPA: Selected cipher suites: group 16 pairwise 16 key_mgmt 2 proto 2
+wlp3s0: WPA: clearing AP WPA IE
+WPA: set AP RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+wlp3s0: WPA: AP group 0x10 network profile group 0x18; available group 0x10
+wlp3s0: WPA: using GTK CCMP
+wlp3s0: WPA: AP pairwise 0x10 network profile pairwise 0x18; available pairwise 0x10
+wlp3s0: WPA: using PTK CCMP
+wlp3s0: WPA: AP key_mgmt 0x2 network profile key_mgmt 0x2; available key_mgmt 0x2
+wlp3s0: WPA: using KEY_MGMT WPA-PSK
+WPA: Set own WPA IE default - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+WPA: Set PMK based on external data - hexdump(len=32): [REMOVED]
+RRM: Determining whether RRM can be used - device support: 0x10
+RRM: No RRM in network
+Added supported operating classes IE - hexdump(len=23): 3b 15 51 51 52 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82
+EAPOL: External notification - EAP success=0
+EAPOL: External notification - EAP fail=0
+EAPOL: External notification - portControl=Auto
+wlp3s0: Cancelling scan request
+wlp3s0: SME: Trying to authenticate with aa:06:18:62:2c:8b (SSID='wifipi' freq=2440 MHz)
+EAPOL: External notification - portValid=0
+wlp3s0: State: DISCONNECTED -> AUTHENTICATING
+nl80211: Authenticate (ifindex=3)
+  * bssid=aa:06:18:62:2c:8b
+  * freq=2437
+  * SSID=wifipi
+  * IEs - hexdump(len=0): [NULL]
+  * Auth Type Anonymous 0
+nl80211: Authentication request send successfully Anonymous
+nl80211: Drv Event 20 (NL80211_CMD_DEL_STATION) received for wlp3s0
+nl80211: Delete station 94:bf:c4:0b:25:e8
+nl80211: Drv Event 19 (NL80211_CMD_NEW_STATION) received for wlp3s0
+nl80211: New station aa:06:18:62:2c:8b
+nl80211: Drv Event 37 (NL80211_CMD_AUTHENTICATE) received for wlp3s0
+nl80211: Authenticate event
+wlp3s0: Event AUTH (10) received
+wlp3s0: SME: Authentication response: peer=aa:06:18:62:2c:8b auth_type=0 auth_transaction=2 status_code=0
+SME: Authentication response IEs Anonymous - hexdump(len=0): [NULL]
+SME: Association Request IEs - hexdump(len=55): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 7f 08 00 00 00 00 00 00 00 40 3b 15 51 51 52 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82
+wlp3s0: Trying to associate with aa:06:18:62:2c:8b (SSID='wifipi' freq=2440 MHz)
+wlp3s0: State: AUTHENTICATING -> ASSOCIATING
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+WPA: set own WPA/RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+nl80211: Associate (ifindex=3)
+  * bssid=aa:06:18:62:2c:8b
+  * freq=2437
+  * SSID=wifipi
+  * IEs - hexdump(len=55): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 7f 08 00 00 00 00 00 00 00 40 3b 15 51 51 52 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82
+  * WPA Versions 0x2
+  * pairwise=0xfac04
+  * group=0xfac04
+  * akm=0xfac02
+nl80211: Association request send successfully
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=5 linkmode=1 ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+nl80211: Drv Event 38 (NL80211_CMD_ASSOCIATE) received for wlp3s0
+nl80211: Associate event
+nl80211: Associated on 2437 MHz
+nl80211: Associated with aa:06:18:62:2c:8b
+nl80211: Set drv->ssid based on scan res info to 'wifipi'
+wlp3s0: Event ASSOC (0) received
+wlp3s0: Association info event
+req_ies - hexdump(len=79): 00 06 77 69 66 69 70 69 01 08 02 04 0b 16 0c 12 18 24 32 04 30 48 60 6c 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 7f 08 00 00 00 00 00 00 00 40 3b 15 51 51 52 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82
+resp_ies_Anonymous - hexdump(len=26): 01 08 82 84 8b 96 0c 12 18 24 32 04 30 48 60 6c 7f 08 04 00 00 00 00 00 00 40
+wlp3s0: freq=2437 MHz
+WPA: set own WPA/RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+wlp3s0: State: ASSOCIATING -> ASSOCIATED
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+wlp3s0: Associated to a new BSS: BSSID=aa:06:18:62:2c:8b
+***hello*******hi****1wlp3s0: printing BSSID aa:06:18:62:2c:8b (SSID='' freq=3 MHz)
+wlp3s0: Associated with aa:06:18:62:2c:8b
+wlp3s0: WPA: Association event - clear replay counter
+wlp3s0: WPA: Clear old PTK
+EAPOL: External notification - portEnabled=0
+EAPOL: External notification - portValid=0
+EAPOL: External notification - EAP success=0
+EAPOL: External notification - portEnabled=1
+EAPOL: SUPP_PAE entering state CONNECTING
+EAPOL: enable timer tick
+EAPOL: SUPP_BE entering state IDLE
+wlp3s0: Setting authentication timeout: 10 sec 0 usec
+wlp3s0: Cancelling scan request
+WMM AC: No WMM IE
+wlp3s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+nl80211: Drv Event 46 (NL80211_CMD_CONNECT) received for wlp3s0
+nl80211: Ignore connect event (cmd=46) when using userspace SME
+l2_packet_receive: src=aa:06:18:62:2c:8b len=99
+wlp3s0: RX EAPOL from aa:06:18:62:2c:8b
+wlp3s0: Setting authentication timeout: 10 sec 0 usec
+wlp3s0: IEEE 802.1X RX: version=2 type=3 length=95
+wlp3s0:   EAPOL-Key type=2
+wlp3s0:   key_info 0x8a (ver=2 keyidx=0 rsvd=0 Pairwise Ack)
+wlp3s0:   key_length=16 key_data_length=0
+  replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+  key_nonce - hexdump(len=32): da 51 bc 19 19 3a 7b 8c 4b f5 2c 81 72 b1 91 59 82 19 4e 53 ae 81 8b e2 c3 bf 20 12 d4 1d 61 71
+  key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+  key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+  key_mic - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+wlp3s0: State: ASSOCIATED -> 4WAY_HANDSHAKE
+wlp3s0: WPA: RX message 1 of 4-Way Handshake from aa:06:18:62:2c:8b (ver=2)
+RSN: msg 1/4 key data - hexdump(len=0):
+WPA: Renewed SNonce - hexdump(len=32): 60 d6 72 4d 62 46 04 dd e5 e3 53 4c 8b 7b 01 fa 81 7d 7d 79 36 e4 9b ed de 0d c9 b6 3f 96 6f 3e
+WPA: PTK derivation using PRF(SHA1)
+WPA: PTK derivation - A1=64:6c:80:0b:e3:47 A2=aa:06:18:62:2c:8b
+Value = 6
+WPA: Anonymous Nonce1 - hexdump(len=32): 60 d6 72 4d 62 46 04 dd e5 e3 53 4c 8b 7b 01 fa 81 7d 7d 79 36 e4 9b ed de 0d c9 b6 3f 96 aa 06
+WPA: Nonce2 - hexdump(len=32): da 51 bc 19 19 3a 7b 8c 4b f5 2c 81 72 b1 91 59 82 19 4e 53 ae 81 8b e2 c3 bf 20 12 d4 1d 61 71
+WPA: PMK - hexdump(len=32): [REMOVED]
+WPA: PTK - hexdump(len=48): [REMOVED]
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: KEK - hexdump(len=16): [REMOVED]
+WPA: TK - hexdump(len=16): [REMOVED]
+WPA: WPA IE for msg 2/4 - hexdump(len=45): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 00 00 31 00 00 00 00 00 00 00 00 5a 12 d6 06 56 00 00 10 c0 0e d6 06
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+*-*-0f*-*-ac*-*-02*-*-00WPA: new data - hexdump(len=45): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 f6 ad 3f e8 f7 ed 1b 3d 51 32 97 4a d5 77 aa 9f 96 ed 0d 82 cc dd ee
+wlp3s0: WPA: Sending EAPOL-Key 2/4
+WPA: Derived Key MIC Anonymous - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+------->0x1
+0xA
+WPA: Send EAPOL-Key frame to aa:06:18:62:2c:8b ver=2 mic_len=16 key_mgmt=0x2
+WPA: EAPOL-Key MIC using HMAC-SHA1
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: Derived Key MIC - hexdump(len=16): 0b 3c 8f 0c 49 00 07 41 ec c8 07 e0 b1 34 6d c1
+nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlp3s0
+wlp3s0: nl80211: Scan trigger
+wlp3s0: Event SCAN_STARTED (47) received
+wlp3s0: External program started a scan
+l2_packet_receive: src=aa:06:18:62:2c:8b len=99
+wlp3s0: RX EAPOL from aa:06:18:62:2c:8b
+wlp3s0: IEEE 802.1X RX: version=2 type=3 length=95
+wlp3s0:   EAPOL-Key type=2
+wlp3s0:   key_info 0x8a (ver=2 keyidx=0 rsvd=0 Pairwise Ack)
+wlp3s0:   key_length=16 key_data_length=0
+  replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+  key_nonce - hexdump(len=32): da 51 bc 19 19 3a 7b 8c 4b f5 2c 81 72 b1 91 59 82 19 4e 53 ae 81 8b e2 c3 bf 20 12 d4 1d 61 71
+  key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+  key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+  key_mic - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+wlp3s0: State: 4WAY_HANDSHAKE -> 4WAY_HANDSHAKE
+wlp3s0: WPA: RX message 1 of 4-Way Handshake from aa:06:18:62:2c:8b (ver=2)
+RSN: msg 1/4 key data - hexdump(len=0):
+WPA: PTK derivation using PRF(SHA1)
+WPA: PTK derivation - A1=64:6c:80:0b:e3:47 A2=aa:06:18:62:2c:8b
+Value = 6
+WPA: Anonymous Nonce1 - hexdump(len=32): 60 d6 72 4d 62 46 04 dd e5 e3 53 4c 8b 7b 01 fa 81 7d 7d 79 36 e4 9b ed de 0d c9 b6 3f 96 aa 06
+WPA: Nonce2 - hexdump(len=32): da 51 bc 19 19 3a 7b 8c 4b f5 2c 81 72 b1 91 59 82 19 4e 53 ae 81 8b e2 c3 bf 20 12 d4 1d 61 71
+WPA: PMK - hexdump(len=32): [REMOVED]
+WPA: PTK - hexdump(len=48): [REMOVED]
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: KEK - hexdump(len=16): [REMOVED]
+WPA: TK - hexdump(len=16): [REMOVED]
+WPA: WPA IE for msg 2/4 - hexdump(len=45): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 f6 ad 3f e8 f7 ed 1b 3d 51 32 97 4a d5 77 aa 9f 96 ed 0d 82 cc dd ee
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+*-*-0f*-*-ac*-*-02*-*-00WPA: new data - hexdump(len=45): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 d4 25 1e 3e 51 49 79 d4 e3 1f ca c7 a9 51 8b ae d2 f5 f1 d0 cc dd ee
+wlp3s0: WPA: Sending EAPOL-Key 2/4
+WPA: Derived Key MIC Anonymous - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+------->0x1
+0xA
+WPA: Send EAPOL-Key frame to aa:06:18:62:2c:8b ver=2 mic_len=16 key_mgmt=0x2
+WPA: EAPOL-Key MIC using HMAC-SHA1
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: Derived Key MIC - hexdump(len=16): 63 68 11 93 5f 3e 15 29 d6 c9 e1 e9 f4 73 63 ea
+EAPOL: startWhen --> 0
+EAPOL: disable timer tick
+EAPOL: SUPP_PAE entering state CONNECTING
+EAPOL: enable timer tick
+EAPOL: txStart
+WPA: drop TX EAPOL in non-IEEE 802.1X mode (type=1 len=0)
+nl80211: Drv Event 42 (NL80211_CMD_REG_BEACON_HINT) received for wlp3s0
+nl80211: Regulatory beacon hint
+nl80211: Channel (before): freq=2472 max_tx_power=2000 no-IR
+nl80211: Channel (after): freq=2472 max_tx_power=2000
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200[NO_IR] 5220 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR] 5560[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Drv Event 42 (NL80211_CMD_REG_BEACON_HINT) received for wlp3s0
+nl80211: Regulatory beacon hint
+nl80211: Channel (before): freq=5200 max_tx_power=2000 no-IR
+nl80211: Channel (after): freq=5200 max_tx_power=2000
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200 5220 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR] 5560[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+wlp3s0: Authentication with aa:06:18:62:2c:8b timed out.
+Added BSSID aa:06:18:62:2c:8b into blacklist
+wlp3s0: WPA: Clear old PMK and PTK
+wlp3s0: Request to deauthenticate - bssid=aa:06:18:62:2c:8b pending_bssid=00:00:00:00:00:00 reason=3 (DEAUTH_LEAVING) state=4WAY_HANDSHAKE
+wpa_driver_nl80211_deauthenticate(addr=aa:06:18:62:2c:8b reason_code=3)
+wlp3s0: Event DEAUTH (11) received
+wlp3s0: Deauthentication notification
+wlp3s0:  * reason 3 (DEAUTH_LEAVING) locally_generated=1
+Deauthentication frame IE(s) - hexdump(len=0): [NULL]
+wlp3s0: CTRL-EVENT-DISCONNECTED bssid=aa:06:18:62:2c:8b reason=3 locally_generated=1
+wlp3s0: WPA: 4-Way Handshake failed - pre-shared key may be incorrect
+wlp3s0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="wifipi" auth_failures=1 duration=10 reason=WRONG_KEY
+wlp3s0: Auto connect enabled: try to reconnect (wps=0/0 wpa_state=7)
+wlp3s0: Setting scan request: 0.100000 sec
+wlp3s0: Radio work 'sme-connect'@0x5606d611a550 done in 10.755687 seconds
+wlp3s0: radio_work_free('sme-connect'@0x5606d611a550): num_active_works --> 0
+BSSID aa:06:18:62:2c:8b blacklist count incremented to 2
+Continuous association failures - consider temporary network disabling
+wlp3s0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="wifipi" auth_failures=2 duration=20 reason=CONN_FAILED
+wlp3s0: Blacklist count 4 --> request scan in 5000 ms
+wlp3s0: Ignore new scan request for 5.000000 sec since an earlier request is scheduled to trigger sooner
+wlp3s0: WPA: Clear old PMK and PTK
+wlp3s0: Disconnect event - remove keys
+wlp3s0: State: 4WAY_HANDSHAKE -> DISCONNECTED
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+EAPOL: External notification - portEnabled=0
+EAPOL: SUPP_PAE entering state DISCONNECTED
+EAPOL: Supplicant port status: Unauthorized
+nl80211: Skip set_supp_port(unauthorized) while not associated
+EAPOL: SUPP_BE entering state INITIALIZE
+EAPOL: External notification - portValid=0
+EAPOL: External notification - EAP success=0
+wlp3s0: State: DISCONNECTED -> DISCONNECTED
+nl80211: Set wlp3s0 operstate 0->0 (DORMANT)
+netlink: Operstate: ifindex=3 linkmode=-1 (no change), operstate=5 (IF_OPER_DORMANT)
+EAPOL: External notification - portEnabled=0
+EAPOL: External notification - portValid=0
+wlp3s0: Ignore new scan request for 1.000000 sec since an earlier request is scheduled to trigger sooner
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=2 linkmode=1 ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: Drv Event 20 (NL80211_CMD_DEL_STATION) received for wlp3s0
+nl80211: Delete station aa:06:18:62:2c:8b
+nl80211: Drv Event 39 (NL80211_CMD_DEAUTHENTICATE) received for wlp3s0
+nl80211: Deauthenticate event
+nl80211: Ignore deauth event triggered due to own deauth request
+nl80211: Drv Event 48 (NL80211_CMD_DISCONNECT) received for wlp3s0
+nl80211: Ignore disconnect event when using userspace SME
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: Drv Event 36 (NL80211_CMD_REG_CHANGE) received for wlp3s0
+nl80211: Regulatory domain change
+ * initiator=0
+ * type=1
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472[NO_IR] 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200[NO_IR] 5220[NO_IR] 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472[NO_IR] 2484[NO_IR]
+wlp3s0: State: DISCONNECTED -> SCANNING
+Scan SSID - hexdump_ascii(len=6):
+     77 69 66 69 70 69                                 wifipi          
+wlp3s0: Starting AP scan for wildcard SSID
+wlp3s0: Add radio work 'scan'@0x5606d611a550
+wlp3s0: First radio work item in the queue - schedule start immediately
+Delay radio work start until externally triggered scan completes
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlp3s0
+wlp3s0: nl80211: New scan results available
+nl80211: Scan probed for SSID 'BITS-WIFI'
+nl80211: Scan probed for SSID ''
+nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+wlp3s0: Event SCAN_RESULTS (3) received
+nl80211: Received scan results (8 BSSes)
+wlp3s0: BSS: Start scan result update 4
+BSS: last_scan_res_used=8/32
+wlp3s0: New scan results available (own=0 ext=1)
+wlp3s0: Do not use results from externally requested scan operation for network selection
+wlp3s0: Starting radio work 'scan'@0x5606d611a550 after 0.507673 second wait
+wlp3s0: nl80211: scan request
+Scan requested (ret=0) - scan timeout 30 seconds
+nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlp3s0
+wlp3s0: nl80211: Scan trigger
+wlp3s0: Event SCAN_STARTED (47) received
+wlp3s0: Own scan request started a scan in 0.000034 seconds
+nl80211: Drv Event 19 (NL80211_CMD_NEW_STATION) received for wlp3s0
+nl80211: New station 94:bf:c4:0b:25:e8
+nl80211: Drv Event 35 (NL80211_CMD_SCAN_ABORTED) received for wlp3s0
+wlp3s0: nl80211: Scan aborted
+nl80211: Scan probed for SSID 'wifipi'
+nl80211: Scan probed for SSID ''
+nl80211: Scan included frequencies: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467 2472 2484 5180 5200 5220 5240 5260 5280 5300 5320 5500 5520 5540 5560 5580 5600 5620 5640 5660 5680 5700 5720 5745 5765 5785 5805 5825
+wlp3s0: Event SCAN_RESULTS (3) received
+wlp3s0: Scan completed in 0.158665 seconds
+nl80211: Received scan results (8 BSSes)
+wlp3s0: BSS: Start scan result update 5
+wlp3s0: New scan results available (own=1 ext=0)
+WPS: AP[0] 98:da:c4:3e:ee:4e type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+WPS: AP[1] 98:da:c4:3e:ee:4f type=0 tries=0 last_attempt=-1 sec ago blacklist=0
+wlp3s0: Radio work 'scan'@0x5606d611a550 done in 0.668021 seconds
+wlp3s0: radio_work_free('scan'@0x5606d611a550): num_active_works --> 0
+wlp3s0: Postpone network selection by 19 seconds since all networks are disabled
+nl80211: Drv Event 42 (NL80211_CMD_REG_BEACON_HINT) received for wlp3s0
+nl80211: Regulatory beacon hint
+nl80211: Channel (before): freq=2472 max_tx_power=2000 no-IR
+nl80211: Channel (after): freq=2472 max_tx_power=2000
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200 5220 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR] 5560[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Drv Event 42 (NL80211_CMD_REG_BEACON_HINT) received for wlp3s0
+nl80211: Regulatory beacon hint
+nl80211: Channel (before): freq=5200 max_tx_power=2000 no-IR
+nl80211: Channel (after): freq=5200 max_tx_power=2000
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200 5220 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR] 5560[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Drv Event 42 (NL80211_CMD_REG_BEACON_HINT) received for wlp3s0
+nl80211: Regulatory beacon hint
+nl80211: Channel (before): freq=5220 max_tx_power=2000 no-IR
+nl80211: Channel (after): freq=5220 max_tx_power=2000
+wlp3s0: Event CHANNEL_LIST_CHANGED (27) received
+wlp3s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+wlp3s0: Updating hw mode
+nl80211: Regulatory information - country=00
+nl80211: 2402-2472 @ 40 MHz 20 mBm
+nl80211: 2457-2482 @ 20 MHz 20 mBm (no IR)
+nl80211: 2474-2494 @ 20 MHz 20 mBm (no OFDM) (no IR)
+nl80211: 5170-5250 @ 80 MHz 20 mBm (no IR)
+nl80211: 5250-5330 @ 80 MHz 20 mBm (DFS) (no IR)
+nl80211: 5490-5730 @ 160 MHz 20 mBm (DFS) (no IR)
+nl80211: 5735-5835 @ 80 MHz 20 mBm (no IR)
+nl80211: 57240-63720 @ 2160 MHz 0 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Mode IEEE 802.11a: 5180[NO_IR] 5200 5220 5240[NO_IR] 5260[NO_IR][RADAR] 5280[NO_IR][RADAR] 5300[NO_IR][RADAR] 5320[NO_IR][RADAR] 5500[NO_IR][RADAR] 5520[NO_IR][RADAR] 5540[NO_IR][RADAR] 5560[NO_IR][RADAR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[NO_IR]
+nl80211: Drv Event 37 (NL80211_CMD_AUTHENTICATE) received for wlp3s0
+nl80211: Authenticate event
+wlp3s0: Event AUTH (10) received
+wlp3s0: SME: Ignore authentication event when network is not selected
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 operstate=5 linkmode=1 ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+RTM_NEWLINK: ifi_index=3 ifname=wlp3s0 wext ifi_family=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+nl80211: Drv Event 38 (NL80211_CMD_ASSOCIATE) received for wlp3s0
+nl80211: Associate event
+nl80211: Associated on 2447 MHz
+nl80211: Associated with 94:bf:c4:0b:25:e8
+nl80211: Set drv->ssid based on scan res info to 'BITS-WIFI'
+wlp3s0: Event ASSOC (0) received
+wlp3s0: Association info event
+req_ies - hexdump(len=119): 00 09 42 49 54 53 2d 57 49 46 49 01 08 02 04 0b 16 0c 12 18 24 32 04 30 48 60 6c 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 80 00 2d 1a 6e 19 1f ff 00 00 00 01 00 00 00 00 00 96 00 01 00 00 00 00 00 00 00 00 00 00 7f 08 00 00 00 00 01 00 00 40 3b 15 51 51 52 53 54 73 74 75 76 77 78 79 7a 7b 7c 7d 7e 7f 80 81 82 dd 07 00 50 f2 02 00 01 00
+resp_ies_Anonymous - hexdump(len=114): 01 04 82 84 8b 0c 32 08 12 96 18 24 30 48 60 6c dd 18 00 50 f2 02 01 01 8b 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00 2d 1a ad 01 03 ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 06 46 e7 0d 00 3d 16 08 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 dd 08 00 13 92 01 00 01 05 00 7f 08 00 00 08 00 00 00 00 00
+wlp3s0: freq=2437 MHz
