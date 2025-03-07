@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/uttamarin.dir/src/main.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/main.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/main.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/app.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/app.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/app.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/bash_lemma_processor.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/bash_lemma_processor.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/bash_lemma_processor.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/default_lemma_job_generator.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/default_lemma_job_generator.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/default_lemma_job_generator.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/lemma_job.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/lemma_job.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/lemma_job.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/lemma_name_reader.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/lemma_name_reader.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/lemma_name_reader.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/m4_theory_preprocessor.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/m4_theory_preprocessor.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/m4_theory_preprocessor.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/output_writer.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/output_writer.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/output_writer.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/penetration_lemma_job_generator.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/penetration_lemma_job_generator.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/penetration_lemma_job_generator.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/terminator.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/terminator.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/terminator.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/utility.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/utility.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/utility.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/ut_tamarin_config.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/ut_tamarin_config.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/ut_tamarin_config.cc"
+},
+{
+  "directory": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/build",
+  "command": "/usr/bin/c++   -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/include -I/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/third-party    -pthread -std=gnu++17 -o CMakeFiles/lib_uttamarin.dir/src/verbose_lemma_processor.cc.o -c /home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/verbose_lemma_processor.cc",
+  "file": "/home/rajib/Documents/formal_analysis/wpa2_formal_model_and_proofs/proof_generation/ut_tamarin/src/verbose_lemma_processor.cc"
+}
+]
