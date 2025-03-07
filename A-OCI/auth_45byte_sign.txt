@@ -1,0 +1,1983 @@
+random: Trying to read entropy from /dev/random
+Configuration file: /home/pi/Downloads/hostapd.confg
+nl80211: TDLS supported
+nl80211: TDLS external setup
+nl80211: Supported cipher 00-0f-ac:1
+nl80211: Supported cipher 00-0f-ac:5
+nl80211: Supported cipher 00-0f-ac:2
+nl80211: Supported cipher 00-0f-ac:4
+nl80211: Supported cipher 00-0f-ac:10
+nl80211: Supported cipher 00-0f-ac:8
+nl80211: Supported cipher 00-0f-ac:9
+nl80211: Supported cipher 00-0f-ac:6
+nl80211: Supported cipher 00-0f-ac:13
+nl80211: Supported cipher 00-0f-ac:11
+nl80211: Supported cipher 00-0f-ac:12
+nl80211: Using driver-based off-channel TX
+nl80211: Driver-advertised extended capabilities (default) - hexdump(len=8): 00 00 00 00 00 00 00 40
+nl80211: Driver-advertised extended capabilities mask (default) - hexdump(len=8): 00 00 00 00 00 00 00 40
+nl80211: Use separate P2P group interface (driver advertised support)
+nl80211: key_mgmt=0x1ff0f enc=0xfef auth=0x7 flags=0x4000511db1bfae0 rrm_flags=0x10 probe_resp_offloads=0x0 max_stations=0 max_remain_on_chan=5000 max_scan_ssids=4
+nl80211: interface wlan1 in phy phy1
+nl80211: Set mode ifindex 5 iftype 3 (AP)
+nl80211: Failed to set interface 5 to mode 3: -16 (Device or resource busy)
+nl80211: Try mode change after setting interface down
+nl80211: Set mode ifindex 5 iftype 3 (AP)
+nl80211: Mode change succeeded while interface is down
+nl80211: Setup AP(wlan1) - device_ap_sme=0 use_monitor=0
+nl80211: Subscribe to mgmt frames with AP handle 0x55890943c0
+nl80211: Register frame type=0xb0 (WLAN_FC_STYPE_AUTH) nl_handle=0x55890943c0 match= multicast=0
+nl80211: Register frame type=0x0 (WLAN_FC_STYPE_ASSOC_REQ) nl_handle=0x55890943c0 match= multicast=0
+nl80211: Register frame type=0x20 (WLAN_FC_STYPE_REASSOC_REQ) nl_handle=0x55890943c0 match= multicast=0
+nl80211: Register frame type=0xa0 (WLAN_FC_STYPE_DISASSOC) nl_handle=0x55890943c0 match= multicast=0
+nl80211: Register frame type=0xc0 (WLAN_FC_STYPE_DEAUTH) nl_handle=0x55890943c0 match= multicast=0
+nl80211: Register frame type=0x40 (WLAN_FC_STYPE_PROBE_REQ) nl_handle=0x55890943c0 match= multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=04 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=0501 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=0503 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=0504 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=06 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=08 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=09 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=0a multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=11 multicast=0
+nl80211: Register frame type=0xd0 (WLAN_FC_STYPE_ACTION) nl_handle=0x55890943c0 match=7f multicast=0
+rfkill: initial event: idx=2 type=1 op=0 soft=0 hard=0
+nl80211: Add own interface ifindex 5 (ifidx_reason -1)
+nl80211: if_indices[16]: 5(-1)
+nl80211: Do not open EAPOL RX socket - using control port for RX
+phy: phy1
+BSS count 1, BSSID mask 00:00:00:00:00:00 (0 bits)
+nl80211: Regulatory information - country=IN
+nl80211: 2402-2482 @ 40 MHz 20 mBm
+nl80211: 5150-5250 @ 80 MHz 30 mBm
+nl80211: 5250-5350 @ 80 MHz 24 mBm
+nl80211: 5470-5725 @ 160 MHz 24 mBm
+nl80211: 5725-5875 @ 80 MHz 30 mBm
+nl80211: Added 802.11b mode based on 802.11g information
+nl80211: Mode IEEE 802.11g: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[DISABLED][NO_IR]
+nl80211: Mode IEEE 802.11b: 2412 2417 2422 2427 2432 2437 2442 2447 2452 2457 2462 2467[NO_IR] 2472 2484[DISABLED][NO_IR]
+Completing interface initialization
+Mode: IEEE 802.11g  Channel: 6  Frequency: 2437 MHz
+DFS 0 channels required radar detection
+nl80211: Set freq 2437 (ht_enabled=0, vht_enabled=0, he_enabled=0, bandwidth=20 MHz, cf1=2437 MHz, cf2=0 MHz)
+  * freq=2437
+  * he_enabled=0
+  * vht_enabled=0
+  * ht_enabled=0
+  * channel_type=0
+RATE[0] rate=10 flags=0x1
+RATE[1] rate=20 flags=0x1
+RATE[2] rate=55 flags=0x1
+RATE[3] rate=110 flags=0x1
+RATE[4] rate=60 flags=0x0
+RATE[5] rate=90 flags=0x0
+RATE[6] rate=120 flags=0x0
+RATE[7] rate=180 flags=0x0
+RATE[8] rate=240 flags=0x0
+RATE[9] rate=360 flags=0x0
+RATE[10] rate=480 flags=0x0
+RATE[11] rate=540 flags=0x0
+hostapd_setup_bss(hapd=0x558908dc70 (wlan1), first=1)
+nl80211: flush -> DEL_STATION wlan1 (all)
+Using interface wlan1 with hwaddr aa:06:18:62:2c:8b and ssid "wifipi"
+Deriving WPA PSK based on passphrase
+SSID - hexdump_ascii(len=6):
+     77 69 66 69 70 69                                 wifipi          
+PSK (ASCII passphrase) - hexdump_ascii(len=14): [REMOVED]
+PSK (from passphrase) - hexdump(len=32): [REMOVED]
+random: Got 20/20 random bytes
+GMK - hexdump(len=32): [REMOVED]
+Key Counter - hexdump(len=32): [REMOVED]
+WPA: Delay group state machine start until Beacon frames have been configured
+nl80211: Set beacon (beacon_set=0)
+nl80211: Beacon head - hexdump(len=57): 80 00 00 00 ff ff ff ff ff ff aa 06 18 62 2c 8b aa 06 18 62 2c 8b 00 00 00 00 00 00 00 00 00 00 64 00 11 04 00 06 77 69 66 69 70 69 01 08 82 84 8b 96 0c 12 18 24 03 01 06
+nl80211: Beacon tail - hexdump(len=45): 2a 01 04 32 04 30 48 60 6c 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 3b 02 51 00 7f 08 04 00 00 00 00 00 00 40
+nl80211: ifindex=5
+nl80211: beacon_int=100
+nl80211: beacon_rate=0
+nl80211: rate_type=0
+nl80211: dtim_period=2
+nl80211: ssid=wifipi
+  * beacon_int=100
+  * dtim_period=2
+nl80211: hidden SSID not in use
+nl80211: privacy=2
+nl80211: auth_algs=0x3
+nl80211: wpa_version=0x2
+nl80211: key_mgmt_suites=0x2
+nl80211: pairwise_ciphers=0x10
+nl80211: group_cipher=0x10
+nl80211: beacon_ies - hexdump(len=10): 7f 08 04 00 00 00 00 00 00 40
+nl80211: proberesp_ies - hexdump(len=10): 7f 08 04 00 00 00 00 00 00 40
+nl80211: assocresp_ies - hexdump(len=10): 7f 08 04 00 00 00 00 00 00 40
+nl80211: multicast to unicast disabled on interface wlan1
+wlan1: Deauthenticate all stations at BSS start
+nl80211: send_mlme - da=ff:ff:ff:ff:ff:ff noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xc0 (WLAN_FC_STYPE_DEAUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+WPA: Start group state machine to set initial keys
+WPA: group state machine entering state GTK_INIT (VLAN-ID 0)
+GTK - hexdump(len=16): [REMOVED]
+WPA: group state machine entering state SETKEYSDONE (VLAN-ID 0)
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=3 addr=0x555d028960 key_idx=1 set_tx=1 seq_len=0 key_len=16 key_flag=0x1a
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   broadcast key
+nl80211: NL80211_CMD_SET_KEY - default key
+nl80211: Set wlan1 operstate 0->1 (UP)
+netlink: Operstate: ifindex=5 linkmode=-1 (no change), operstate=6 (IF_OPER_UP)
+nl80211: TX queue param set: queue=0 aifs=1 cw_min=3 cw_max=7 burst_time=15 --> res=0
+nl80211: TX queue param set: queue=1 aifs=1 cw_min=7 cw_max=15 burst_time=30 --> res=0
+nl80211: TX queue param set: queue=2 aifs=3 cw_min=15 cw_max=63 burst_time=0 --> res=0
+nl80211: TX queue param set: queue=3 aifs=7 cw_min=15 cw_max=1023 burst_time=0 --> res=0
+wlan1: interface state UNINITIALIZED->ENABLED
+wlan1: AP-ENABLED 
+wlan1: Setup of interface done.
+ctrl_iface not configured!
+RTM_NEWLINK: ifi_index=5 ifname=wlan1 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1002 ()
+nl80211: Ignore interface down event since interface wlan1 is up
+RTM_NEWLINK: ifi_index=5 ifname=wlan1 operstate=2 linkmode=0 ifi_family=0 ifi_flags=0x1003 ([UP])
+RTM_NEWLINK: ifi_index=5 ifname=wlan1 operstate=6 linkmode=0 ifi_family=0 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+nl80211: Drv Event 15 (NL80211_CMD_START_AP) received for wlan1
+wlan1: nl80211: Ignored unknown event (cmd=15)
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=ff:ff:ff:ff:ff:ff stype=12 cookie=0xc7 ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::deauth cb
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0x1100 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=94:bf:c4:0b:25:e8 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-54 fc=0x40 seq_ctrl=0x5120 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=107
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=94:bf:c4:0b:25:e8 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-55 fc=0x40 seq_ctrl=0x5130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=98
+nl80211: send_mlme - da=94:bf:c4:0b:25:e8 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=94:bf:c4:cb:25:e3 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-64 fc=0x40 seq_ctrl=0xb320 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=115
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x2960 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x2970 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x1140 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-43 fc=0x40 seq_ctrl=0x1150 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-44 fc=0x40 seq_ctrl=0x1160 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-52 fc=0x40 seq_ctrl=0xa3a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: Ignored event 33 (NL80211_CMD_TRIGGER_SCAN) for foreign interface (ifindex 4 wdev 0x0)
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-54 fc=0x40 seq_ctrl=0xa3b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-31 fc=0x40 seq_ctrl=0xa410 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=4
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-22 fc=0x40 seq_ctrl=0xa420 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-17 fc=0x40 seq_ctrl=0xa430 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-15 fc=0x40 seq_ctrl=0xa440 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+nl80211: send_mlme - da=92:2f:ab:5f:1a:3d noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-20 fc=0x40 seq_ctrl=0xa450 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+nl80211: send_mlme - da=92:2f:ab:5f:1a:3d noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-18 fc=0x40 seq_ctrl=0xa460 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-17 fc=0x40 seq_ctrl=0xa470 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x2b90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x2ba0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-53 fc=0x40 seq_ctrl=0xa4c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-73 fc=0x40 seq_ctrl=0x13c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-79 fc=0x40 seq_ctrl=0x2bc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-51 fc=0x40 seq_ctrl=0xa4e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-53 fc=0x40 seq_ctrl=0xa4f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-56 fc=0x40 seq_ctrl=0xa510 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=12
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0xa520 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0xa530 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+nl80211: Ignored event 34 (NL80211_CMD_NEW_SCAN_RESULTS) for foreign interface (ifindex 4 wdev 0x0)
+RTM_NEWLINK: ifi_index=4 ifname=wlan0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-59 fc=0x40 seq_ctrl=0x1410 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x1440 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x1450 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x5400 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x5420 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x5430 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x5440 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x1460 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x1470 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=5 cookie=0xc8 ack=1
+wlan1: Event TX_STATUS (16) received
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x1480 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-53 fc=0x40 seq_ctrl=0x1490 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-60 fc=0x40 seq_ctrl=0x14c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-66 fc=0x40 seq_ctrl=0x14e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-66 fc=0x40 seq_ctrl=0x14f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x1500 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-78 fc=0x40 seq_ctrl=0x1520 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=12
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=34:41:5d:46:d1:f1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0xc920 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=70
+nl80211: send_mlme - da=34:41:5d:46:d1:f1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=34:41:5d:46:d1:f1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-79 fc=0x40 seq_ctrl=0xc970 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=70
+nl80211: send_mlme - da=34:41:5d:46:d1:f1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-41 fc=0xb0 seq_ctrl=0x0 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x0
+  New STA
+ap_sta_add: register ap_handle_timer timeout for 64:6c:80:0b:e3:47 (300 seconds - ap_max_inactivity)
+nl80211: sta_remove -> DEL_STATION wlan1 64:6c:80:0b:e3:47 --> -2 (No such file or directory)
+nl80211: Add STA 64:6c:80:0b:e3:47
+  * supported rates - hexdump(len=4): 02 04 0b 16
+  * capability=0x0
+  * aid=1 (UNASSOC_STA workaround)
+  * listen_interval=0
+  * flags set=0x0 mask=0xa0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drv Event 19 (NL80211_CMD_NEW_STATION) received for wlan1
+nl80211: New station 64:6c:80:0b:e3:47
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xc9 ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x2d90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x5630 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=94:bf:c4:0b:25:e8 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-58 fc=0x40 seq_ctrl=0x5750 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=107
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=94:bf:c4:0b:25:e8 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-58 fc=0x40 seq_ctrl=0x5760 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=98
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=94:bf:c4:cb:25:e3 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-58 fc=0x40 seq_ctrl=0xb330 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=115
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=cc:47:40:31:44:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-90 fc=0x40 seq_ctrl=0x120 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=61
+nl80211: send_mlme - da=cc:47:40:31:44:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=cc:47:40:31:44:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-88 fc=0x40 seq_ctrl=0x130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=61
+nl80211: send_mlme - da=cc:47:40:31:44:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x2fc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x2fd0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=b2:6d:02:da:34:f5 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-79 fc=0x40 seq_ctrl=0x1990 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=113
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0xe0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0xf0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-57 fc=0x40 seq_ctrl=0x120 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-38 fc=0x40 seq_ctrl=0x160 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x170 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x180 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-37 fc=0x40 seq_ctrl=0x190 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=5 cookie=0xca ack=1
+wlan1: Event TX_STATUS (16) received
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-43 fc=0x40 seq_ctrl=0x1b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x31d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x31f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xc7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x3200 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-76 fc=0x40 seq_ctrl=0x3220 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-49 fc=0x40 seq_ctrl=0x1c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=8
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-62 fc=0x40 seq_ctrl=0x1e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-67 fc=0x40 seq_ctrl=0x210 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x220 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x5a60 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x5ab0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: Ignored event 33 (NL80211_CMD_TRIGGER_SCAN) for foreign interface (ifindex 4 wdev 0x0)
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-54 fc=0x40 seq_ctrl=0xa550 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-45 fc=0x40 seq_ctrl=0xa560 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-31 fc=0x40 seq_ctrl=0xa5a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=4
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-34 fc=0x40 seq_ctrl=0xa5b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=4
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-26 fc=0x40 seq_ctrl=0xa5c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-24 fc=0x40 seq_ctrl=0xa5d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-23 fc=0x40 seq_ctrl=0xa600 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-24 fc=0x40 seq_ctrl=0xa610 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-35 fc=0x40 seq_ctrl=0xa630 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=8
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-51 fc=0x40 seq_ctrl=0xa680 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-57 fc=0x40 seq_ctrl=0xa6a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=12
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-56 fc=0x40 seq_ctrl=0xa6b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=12
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0xa6c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-62 fc=0x40 seq_ctrl=0xa6d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+nl80211: Ignored event 34 (NL80211_CMD_NEW_SCAN_RESULTS) for foreign interface (ifindex 4 wdev 0x0)
+RTM_NEWLINK: ifi_index=4 ifname=wlan0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-41 fc=0xb0 seq_ctrl=0x0 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xcb ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x5ca0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=38:7a:0e:05:59:b5 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-58 fc=0x40 seq_ctrl=0x6ef0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=38:7a:0e:05:59:b5 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x3620 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x3640 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x5eb0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x5ed0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x2790 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x27a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-77 fc=0x40 seq_ctrl=0x27b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-77 fc=0x40 seq_ctrl=0x27c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x3850 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x60c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x60e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xc8
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=7a:bd:b3:62:c9:26 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-87 fc=0x40 seq_ctrl=0x1160 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=54
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=7a:bd:b3:62:c9:26 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-90 fc=0x40 seq_ctrl=0x11c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=54
+nl80211: send_mlme - da=7a:bd:b3:62:c9:26 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=7a:bd:b3:62:c9:26 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x11d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=54
+nl80211: send_mlme - da=7a:bd:b3:62:c9:26 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=94:bf:c4:0b:2b:e8 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-92 fc=0x40 seq_ctrl=0x1420 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=107
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x3aa0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x170 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-40 fc=0x40 seq_ctrl=0x180 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x190 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x62e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x6300 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xc9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-79 fc=0x40 seq_ctrl=0x6310 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x6320 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-60 fc=0x40 seq_ctrl=0x1b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-65 fc=0x40 seq_ctrl=0x1c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-74 fc=0x40 seq_ctrl=0x1d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=02:ec:e6:57:d9:50 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-74 fc=0x40 seq_ctrl=0x20a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=02:ec:e6:57:d9:50 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=b2:6d:02:da:34:f5 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-80 fc=0x40 seq_ctrl=0x1c10 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=113
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x3a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=b2:6d:02:da:34:f5 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x1e90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=113
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-64 fc=0x40 seq_ctrl=0x3b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-59 fc=0x40 seq_ctrl=0x3c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-59 fc=0x40 seq_ctrl=0x3d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x3c70 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x3c90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x410 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-43 fc=0x40 seq_ctrl=0x420 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-39 fc=0x40 seq_ctrl=0x440 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xca
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x450 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-40 fc=0x40 seq_ctrl=0x460 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x6530 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-66 fc=0x40 seq_ctrl=0x4b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-76 fc=0x40 seq_ctrl=0x4e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=34:41:5d:46:d1:f1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-76 fc=0x40 seq_ctrl=0xca30 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=70
+nl80211: send_mlme - da=34:41:5d:46:d1:f1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=34:41:5d:46:d1:f1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0xca90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=70
+nl80211: send_mlme - da=34:41:5d:46:d1:f1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=5e:30:b6:08:d2:1e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-77 fc=0x40 seq_ctrl=0x49b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=5e:30:b6:08:d2:1e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x49c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=5e:30:b6:08:d2:1e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x49d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=5e:30:b6:08:d2:1e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xcb
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=5e:30:b6:08:d2:1e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-74 fc=0x40 seq_ctrl=0x49e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=5e:30:b6:08:d2:1e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=5e:30:b6:08:d2:1e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-76 fc=0x40 seq_ctrl=0x4a00 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-40 fc=0xb0 seq_ctrl=0x0 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xcc ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=38:7a:0e:05:59:b5 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-63 fc=0x40 seq_ctrl=0x7030 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=38:7a:0e:05:59:b5 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-50 fc=0x40 seq_ctrl=0x30 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=8
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x3e90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x3eb0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x3ec0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x3ed0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x3ee0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=ba:0d:90:ba:88:70 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-90 fc=0x40 seq_ctrl=0xf1b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=95
+nl80211: send_mlme - da=ba:0d:90:ba:88:70 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x6740 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Ignored event 33 (NL80211_CMD_TRIGGER_SCAN) for foreign interface (ifindex 4 wdev 0x0)
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-53 fc=0x40 seq_ctrl=0xa6f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-35 fc=0x40 seq_ctrl=0xa750 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=4
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-23 fc=0x40 seq_ctrl=0xa760 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-24 fc=0x40 seq_ctrl=0xa770 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-25 fc=0x40 seq_ctrl=0xa7a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-20 fc=0x40 seq_ctrl=0xa7b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-48 fc=0x40 seq_ctrl=0xa800 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-53 fc=0x40 seq_ctrl=0xa820 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-52 fc=0x40 seq_ctrl=0xa830 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-57 fc=0x40 seq_ctrl=0xa850 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=12
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0xa860 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-60 fc=0x40 seq_ctrl=0xa870 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+nl80211: Ignored event 34 (NL80211_CMD_NEW_SCAN_RESULTS) for foreign interface (ifindex 4 wdev 0x0)
+RTM_NEWLINK: ifi_index=4 ifname=wlan0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-86 fc=0x40 seq_ctrl=0x40b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x40c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x40d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x40e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x4100 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x6950 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x6970 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=ea:ff:99:f2:cc:04 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-87 fc=0x40 seq_ctrl=0x9780 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=91
+nl80211: send_mlme - da=ea:ff:99:f2:cc:04 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-73 fc=0x40 seq_ctrl=0xb0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-73 fc=0x40 seq_ctrl=0xc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-63 fc=0x40 seq_ctrl=0xd0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-64 fc=0x40 seq_ctrl=0xe0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-58 fc=0x40 seq_ctrl=0x100 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-49 fc=0x40 seq_ctrl=0x110 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=4
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-43 fc=0x40 seq_ctrl=0x130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-39 fc=0x40 seq_ctrl=0x140 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x150 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x160 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=5 cookie=0xcd ack=1
+wlan1: Event TX_STATUS (16) received
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-39 fc=0x40 seq_ctrl=0x170 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-40 fc=0x40 seq_ctrl=0x180 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-63 fc=0x40 seq_ctrl=0x1c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-79 fc=0x40 seq_ctrl=0x4300 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=38:7a:0e:05:59:b5 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-58 fc=0x40 seq_ctrl=0x71a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=38:7a:0e:05:59:b5 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0x570 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-41 fc=0xb0 seq_ctrl=0x580 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x580
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xce ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-40 fc=0x0 seq_ctrl=0x590 stype=0 (WLAN_FC_STYPE_ASSOC_REQ) len=106
+wlan1: Event RX_MGMT (18) received
+mgmt::assoc_req
+association request: STA=64:6c:80:0b:e3:47 capab_info=0x431 listen_interval=5 seq_ctrl=0x590
+  new AID 1
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: association OK (aid 1)
+Add associated STA 64:6c:80:0b:e3:47 (added_unassoc=1 auth_alg=0 ft_over_ds=0 reassoc=0 authorized=0 ft_tk=0 fils_tk=0)
+nl80211: Set STA 64:6c:80:0b:e3:47
+  * supported rates - hexdump(len=12): 02 04 0b 16 0c 12 18 24 30 48 60 6c
+  * capability=0x431
+  * aid=1
+  * listen_interval=5
+  * flags set=0xa4 mask=0xa4
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x10 (WLAN_FC_STYPE_ASSOC_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=1 cookie=0xcf ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::assoc_resp cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: associated (aid 1)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-ASSOCIATE.indication(64:6c:80:0b:e3:47)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909cbd0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: binding station to interface 'wlan1'
+nl80211: wlan1[5]: set_sta_vlan(64:6c:80:0b:e3:47, ifname=wlan1[5], vlan_id=0)
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x64 flags_or=0x4 flags_and=0xfffffff5 authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 WPA: event 1 notification
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909cbd0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+IEEE 802.1X: Ignore STA - 802.1X not enabled or forced for WPS
+wlan1: STA 64:6c:80:0b:e3:47 WPA: start authentication
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state INITIALIZE
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909cbd0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x64 flags_or=0x0 flags_and=0xfffffffe authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.1X: unauthorizing port
+WPA: 64:6c:80:0b:e3:47 WPA_PTK_GROUP entering state IDLE
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state AUTHENTICATION
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state AUTHENTICATION2
+WPA: Re-initialize GMK/Counter on first station
+GMK - hexdump(len=32): [REMOVED]
+Key Counter - hexdump(len=32): [REMOVED]
+GTK - hexdump(len=16): [REMOVED]
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=3 addr=0x555d028960 key_idx=1 set_tx=1 seq_len=0 key_len=16 key_flag=0x1a
+nl80211: NEW_KEY
+nl80211: KEY_DATA - hexdump(len=16): [REMOVED]
+   broadcast key
+nl80211: NL80211_CMD_SET_KEY - default key
+WPA: Assign ANonce - hexdump(len=32): f4 2c a7 b7 40 81 91 a9 eb 6f 09 a8 6c eb 06 ff b8 0f ad 3c 9d 92 51 42 af 52 6b 8c 43 c8 31 ca
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state INITPSK
+Searching a PSK for 64:6c:80:0b:e3:47 prev_psk=(nil)
+Searching a PSK for 64:6c:80:0b:e3:47 prev_psk=(nil)
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state PTKSTART
+wlan1: STA 64:6c:80:0b:e3:47 WPA: sending 1/4 msg of 4-Way Handshake
+WPA: Send EAPOL(version=2 secure=0 mic=0 ack=1 install=0 pairwise=1 kde_len=0 keyidx=0 encr=0)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+nl80211: Send over control port dest=64:6c:80:0b:e3:47 proto=0x888e len=99 no_encrypt=1
+nl80211: tx_control_port cookie=0xd0
+WPA: Use EAPOL-Key timeout of 100 ms (retry counter 1)
+wlan1: hostapd_new_assoc_sta: reschedule ap_handle_timer timeout for 64:6c:80:0b:e3:47 (300 seconds - ap_max_inactivity)
+nl80211: Drv Event 139 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for wlan1
+nl80211: Control port TX status (ack=1), cookie=208
+wlan1: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 64:6c:80:0b:e3:47 TX status - version=2 type=3 length=95 - ack=1
+WPA: EAPOL-Key TX status for STA 64:6c:80:0b:e3:47 ack=1
+WPA: Increase initial EAPOL-Key 1/4 timeout by 1000 ms because of acknowledged frame
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-40 fc=0xc0 seq_ctrl=0x5a0 stype=12 (WLAN_FC_STYPE_DEAUTH) len=26
+wlan1: Event RX_MGMT (18) received
+wlan1: mgmt::deauth
+wlan1: deauthentication: STA=64:6c:80:0b:e3:47 reason_code=1
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x4 flags_or=0x4 flags_and=0xfffffff5 authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 WPA: event 3 notification
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909cbd0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state DISCONNECTED
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state INITIALIZE
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909cbd0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x4 flags_or=0x0 flags_and=0xfffffffe authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.1X: unauthorizing port
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: deauthenticated
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DEAUTHENTICATE.indication(64:6c:80:0b:e3:47, 1)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909cbd0 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x4 flags_or=0x4 flags_and=0xfffffff5 authorized=0
+nl80211: sta_remove -> DEL_STATION wlan1 64:6c:80:0b:e3:47 --> 0 (Success)
+ap_free_sta: cancel ap_handle_timer for 64:6c:80:0b:e3:47
+nl80211: Drv Event 20 (NL80211_CMD_DEL_STATION) received for wlan1
+nl80211: Delete station 64:6c:80:0b:e3:47
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-73 fc=0x40 seq_ctrl=0x2390 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x23a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0x23b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x23c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x30 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-72 fc=0x40 seq_ctrl=0x40 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x23d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x23e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x23f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x2400 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-67 fc=0x40 seq_ctrl=0x2410 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x2420 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-65 fc=0x40 seq_ctrl=0x50 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-63 fc=0x40 seq_ctrl=0x60 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0xb0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0xc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-59 fc=0x40 seq_ctrl=0xd0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0xe0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=5 cookie=0xd1 ack=1
+wlan1: Event TX_STATUS (16) received
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0xf0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x100 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x4500 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x4510 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xcc
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-59 fc=0x40 seq_ctrl=0x130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x4540 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-66 fc=0x40 seq_ctrl=0x150 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=ca:92:91:fc:24:94 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0x4d00 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=54
+nl80211: send_mlme - da=ca:92:91:fc:24:94 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=ca:92:91:fc:24:94 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x4d10 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=54
+nl80211: send_mlme - da=ca:92:91:fc:24:94 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-72 fc=0x40 seq_ctrl=0x170 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x180 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=ca:92:91:fc:24:94 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x4d20 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=54
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=7e:3b:43:e8:c5:d1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x9660 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=7e:3b:43:e8:c5:d1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=7e:3b:43:e8:c5:d1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-89 fc=0x40 seq_ctrl=0x9670 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=7e:3b:43:e8:c5:d1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-41 fc=0xb0 seq_ctrl=0x0 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x0
+  New STA
+ap_sta_add: register ap_handle_timer timeout for 64:6c:80:0b:e3:47 (300 seconds - ap_max_inactivity)
+nl80211: sta_remove -> DEL_STATION wlan1 64:6c:80:0b:e3:47 --> -2 (No such file or directory)
+nl80211: Add STA 64:6c:80:0b:e3:47
+  * supported rates - hexdump(len=4): 02 04 0b 16
+  * capability=0x0
+  * aid=1 (UNASSOC_STA workaround)
+  * listen_interval=0
+  * flags set=0x0 mask=0xa0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 19 (NL80211_CMD_NEW_STATION) received for wlan1
+nl80211: New station 64:6c:80:0b:e3:47
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xd2 ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x4720 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x4730 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x4740 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x4750 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x4760 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x6fb0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x6fc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x6fd0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x6ff0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x29f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x2a10 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-72 fc=0x40 seq_ctrl=0x2a20 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x2a30 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xcd
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0x2a40 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x2a50 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x2a60 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x2a70 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x2a80 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x2a90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x2aa0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x2ab0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x2ac0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=20:e9:17:07:bd:93 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-86 fc=0x40 seq_ctrl=0xbd10 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=249
+nl80211: send_mlme - da=20:e9:17:07:bd:93 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x70 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-64 fc=0x40 seq_ctrl=0x90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-64 fc=0x40 seq_ctrl=0xa0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-38 fc=0x40 seq_ctrl=0xf0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x100 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-37 fc=0x40 seq_ctrl=0x110 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xce
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-40 fc=0x40 seq_ctrl=0x120 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xcf
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=5 cookie=0xd3 ack=1
+wlan1: Event TX_STATUS (16) received
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-40 fc=0x40 seq_ctrl=0x130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-39 fc=0x40 seq_ctrl=0x140 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0x170 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-67 fc=0x40 seq_ctrl=0x190 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-67 fc=0x40 seq_ctrl=0x1a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x1b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-74 fc=0x40 seq_ctrl=0x1c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x4950 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x4970 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x71d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=8a:86:54:ac:a3:cf bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-88 fc=0x40 seq_ctrl=0x2270 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=112
+nl80211: send_mlme - da=8a:86:54:ac:a3:cf noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-42 fc=0xb0 seq_ctrl=0x0 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xd1
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xd4 ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=96:6a:48:f3:df:53 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0xcd70 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=136
+nl80211: send_mlme - da=96:6a:48:f3:df:53 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=96:6a:48:f3:df:53 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0xcd80 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=136
+nl80211: send_mlme - da=96:6a:48:f3:df:53 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=96:6a:48:f3:df:53 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0xcd90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=136
+nl80211: send_mlme - da=96:6a:48:f3:df:53 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=96:6a:48:f3:df:53 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0xcdb0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=136
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=96:6a:48:f3:df:53 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0xcdc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=136
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=96:6a:48:f3:df:53 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0xcdd0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=136
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x4b80 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x7400 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x3030 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x3040 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x3050 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x3060 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x3070 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x3080 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x3090 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xd2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-69 fc=0x40 seq_ctrl=0x30a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x30b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+nl80211: send_mlme - da=86:4e:ac:df:7e:f6 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x30c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=100
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=86:4e:ac:df:7e:f6 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0x30f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=93
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x4d80 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x4d90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-80 fc=0x40 seq_ctrl=0x4da0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x4dc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-83 fc=0x40 seq_ctrl=0x7600 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-86 fc=0x40 seq_ctrl=0x7650 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=34:41:5d:46:d1:f1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-74 fc=0x40 seq_ctrl=0xcb40 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=70
+nl80211: send_mlme - da=34:41:5d:46:d1:f1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=34:41:5d:46:d1:f1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-79 fc=0x40 seq_ctrl=0xcb90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=70
+nl80211: send_mlme - da=34:41:5d:46:d1:f1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=34:41:5d:46:d1:f1 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-76 fc=0x40 seq_ctrl=0xcba0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=70
+nl80211: send_mlme - da=34:41:5d:46:d1:f1 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-64 fc=0x40 seq_ctrl=0x100 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x4fc0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-39 fc=0x40 seq_ctrl=0x130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-43 fc=0x40 seq_ctrl=0x140 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x150 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-82 fc=0x40 seq_ctrl=0x7830 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x7840 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xd3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x7850 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0x170 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-68 fc=0x40 seq_ctrl=0x180 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=73
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=cc:47:40:31:44:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-87 fc=0x40 seq_ctrl=0x130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=61
+nl80211: send_mlme - da=cc:47:40:31:44:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-50 fc=0x40 seq_ctrl=0xa880 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: Ignored event 33 (NL80211_CMD_TRIGGER_SCAN) for foreign interface (ifindex 4 wdev 0x0)
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-54 fc=0x40 seq_ctrl=0xa890 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-52 fc=0x40 seq_ctrl=0xa8a0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-31 fc=0x40 seq_ctrl=0xa8e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=4
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-23 fc=0x40 seq_ctrl=0xa900 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-22 fc=0x40 seq_ctrl=0xa910 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-59 fc=0x40 seq_ctrl=0xa930 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+nl80211: send_mlme - da=92:2f:ab:5f:1a:3d noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-22 fc=0x40 seq_ctrl=0xa940 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-22 fc=0x40 seq_ctrl=0xa950 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-32 fc=0x40 seq_ctrl=0xa960 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=8
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-33 fc=0x40 seq_ctrl=0xa970 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=8
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-45 fc=0x40 seq_ctrl=0xa9b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-53 fc=0x40 seq_ctrl=0xa9c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x7a60 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:39 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0xd4
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-57 fc=0x40 seq_ctrl=0xa9e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=12
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-55 fc=0x40 seq_ctrl=0xa9f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=12
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-63 fc=0x40 seq_ctrl=0xaa00 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=92:2f:ab:5f:1a:3d bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-62 fc=0x40 seq_ctrl=0xaa10 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=84
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=13
+RTM_NEWLINK: ifi_index=4 ifname=wlan0 wext ifi_family=0 ifi_flags=0x1003 ([UP])
+nl80211: Ignored event 34 (NL80211_CMD_NEW_SCAN_RESULTS) for foreign interface (ifindex 4 wdev 0x0)
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-70 fc=0x40 seq_ctrl=0x3b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-71 fc=0x40 seq_ctrl=0x3c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-62 fc=0x40 seq_ctrl=0x3d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-63 fc=0x40 seq_ctrl=0x3e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-57 fc=0x40 seq_ctrl=0x3f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-58 fc=0x40 seq_ctrl=0x400 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-38 fc=0x40 seq_ctrl=0x430 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x440 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-39 fc=0x40 seq_ctrl=0x450 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-38 fc=0x40 seq_ctrl=0x460 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=5 cookie=0xd5 ack=1
+wlan1: Event TX_STATUS (16) received
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x470 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-43 fc=0x40 seq_ctrl=0x480 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0x4b0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-65 fc=0x40 seq_ctrl=0x4d0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-65 fc=0x40 seq_ctrl=0x4e0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-76 fc=0x40 seq_ctrl=0x4f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=89
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x500 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=38:7a:0e:05:59:b5 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-61 fc=0x40 seq_ctrl=0x7300 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=135
+nl80211: send_mlme - da=38:7a:0e:05:59:b5 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:4e bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-81 fc=0x40 seq_ctrl=0x53f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+nl80211: send_mlme - da=e4:5f:01:82:9d:4e noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x7c70 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:82:9d:39 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-87 fc=0x40 seq_ctrl=0x7cb0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=230
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-40 fc=0xb0 seq_ctrl=0x0 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xd6 ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-73 fc=0x40 seq_ctrl=0x50 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-75 fc=0x40 seq_ctrl=0x60 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-41 fc=0xb0 seq_ctrl=0x0 stype=11 (WLAN_FC_STYPE_AUTH) len=30
+wlan1: Event RX_MGMT (18) received
+mgmt::auth
+authentication: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=1 status_code=0 wep=0 seq_ctrl=0x0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authentication OK (open system)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-AUTHENTICATE.indication(64:6c:80:0b:e3:47, OPEN_SYSTEM)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+authentication reply: STA=64:6c:80:0b:e3:47 auth_alg=0 auth_transaction=2 resp=0 (IE len=0) (dbg=handle-auth)
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xb0 (WLAN_FC_STYPE_AUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=11 cookie=0xd7 ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::auth cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: authenticated
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x20 flags_or=0x0 flags_and=0xfffffff1 authorized=0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=aa:06:18:62:2c:8b sa=64:6c:80:0b:e3:47 bssid=aa:06:18:62:2c:8b freq=2437 ssi_signal=-41 fc=0x0 seq_ctrl=0x10 stype=0 (WLAN_FC_STYPE_ASSOC_REQ) len=107
+wlan1: Event RX_MGMT (18) received
+mgmt::assoc_req
+association request: STA=64:6c:80:0b:e3:47 capab_info=0x431 listen_interval=5 seq_ctrl=0x10
+  new AID 1
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: association OK (aid 1)
+Add associated STA 64:6c:80:0b:e3:47 (added_unassoc=1 auth_alg=0 ft_over_ds=0 reassoc=0 authorized=0 ft_tk=0 fils_tk=0)
+nl80211: Set STA 64:6c:80:0b:e3:47
+  * supported rates - hexdump(len=12): 02 04 0b 16 0c 12 18 24 30 48 60 6c
+  * capability=0x431
+  * aid=1
+  * listen_interval=5
+  * flags set=0xa4 mask=0xa4
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x10 (WLAN_FC_STYPE_ASSOC_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=1 cookie=0xd8 ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::assoc_resp cb
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: associated (aid 1)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-ASSOCIATE.indication(64:6c:80:0b:e3:47)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909d430 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.11: binding station to interface 'wlan1'
+nl80211: wlan1[5]: set_sta_vlan(64:6c:80:0b:e3:47, ifname=wlan1[5], vlan_id=0)
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x64 flags_or=0x4 flags_and=0xfffffff5 authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 WPA: event 1 notification
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909d430 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+IEEE 802.1X: Ignore STA - 802.1X not enabled or forced for WPS
+wlan1: STA 64:6c:80:0b:e3:47 WPA: start authentication
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state INITIALIZE
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909d430 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x64 flags_or=0x0 flags_and=0xfffffffe authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.1X: unauthorizing port
+WPA: 64:6c:80:0b:e3:47 WPA_PTK_GROUP entering state IDLE
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state AUTHENTICATION
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state AUTHENTICATION2
+WPA: Assign ANonce - hexdump(len=32): db b6 cd 76 2d 7d f0 cd de e6 c6 1a 37 28 4b 3e fa 8a 71 c1 6c 6d 84 95 ea 5f b6 99 9b 7f 84 44
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state INITPSK
+Searching a PSK for 64:6c:80:0b:e3:47 prev_psk=(nil)
+Searching a PSK for 64:6c:80:0b:e3:47 prev_psk=(nil)
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state PTKSTART
+wlan1: STA 64:6c:80:0b:e3:47 WPA: sending 1/4 msg of 4-Way Handshake
+WPA: Send EAPOL(version=2 secure=0 mic=0 ack=1 install=0 pairwise=1 kde_len=0 keyidx=0 encr=0)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+nl80211: Send over control port dest=64:6c:80:0b:e3:47 proto=0x888e len=99 no_encrypt=1
+nl80211: tx_control_port cookie=0xd9
+WPA: Use EAPOL-Key timeout of 100 ms (retry counter 1)
+wlan1: hostapd_new_assoc_sta: reschedule ap_handle_timer timeout for 64:6c:80:0b:e3:47 (300 seconds - ap_max_inactivity)
+nl80211: Drv Event 139 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for wlan1
+nl80211: Control port TX status (ack=1), cookie=217
+wlan1: Event EAPOL_TX_STATUS (37) received
+IEEE 802.1X: 64:6c:80:0b:e3:47 TX status - version=2 type=3 length=95 - ack=1
+WPA: EAPOL-Key TX status for STA 64:6c:80:0b:e3:47 ack=1
+WPA: Increase initial EAPOL-Key 1/4 timeout by 1000 ms because of acknowledged frame
+nl80211: BSS Event 129 (NL80211_CMD_CONTROL_PORT_FRAME) received for wlan1
+wlan1: Event EAPOL_RX (23) received
+IEEE 802.1X: 144 bytes from 64:6c:80:0b:e3:47
+   IEEE 802.1X: version=1 type=3 length=140
+WPA: Received EAPOL-Key from 64:6c:80:0b:e3:47 key_info=0x10a type=2 mic_len=16 key_data_length=45
+WPA: Received Key Nonce - hexdump(len=32): 21 f3 9b 3e 88 06 60 a3 88 70 db 92 50 07 b2 1f ad dc 10 7a 32 73 30 dc 17 b8 aa e0 d2 b8 aa 06
+WPA: Received Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+wlan1: STA 64:6c:80:0b:e3:47 WPA: received EAPOL-Key frame (2/4 Pairwise)
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state PTKCALCNEGOTIATING
+Searching a PSK for 64:6c:80:0b:e3:47 prev_psk=(nil)
+WPA: PTK derivation using PRF(SHA1)
+WPA: PTK derivation - A1=aa:06:18:62:2c:8b A2=64:6c:80:0b:e3:47
+WPA: Nonce1 - hexdump(len=32): db b6 cd 76 2d 7d f0 cd de e6 c6 1a 37 28 4b 3e fa 8a 71 c1 6c 6d 84 95 ea 5f b6 99 9b 7f 84 44
+WPA: Nonce2 - hexdump(len=32): 21 f3 9b 3e 88 06 60 a3 88 70 db 92 50 07 b2 1f ad dc 10 7a 32 73 30 dc 17 b8 aa e0 d2 b8 aa 06
+WPA: PMK - hexdump(len=32): [REMOVED]
+WPA: PTK - hexdump(len=48): [REMOVED]
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: KEK - hexdump(len=16): [REMOVED]
+WPA: TK - hexdump(len=16): [REMOVED]
+WPA: EAPOL-Key MIC using HMAC-SHA1
+Searching a PSK for 64:6c:80:0b:e3:47 prev_psk=0x5589091030
+wlan1: STA 64:6c:80:0b:e3:47 WPA: invalid MIC in msg 2/4 of 4-Way Handshake
+wlan1: AP-STA-POSSIBLE-PSK-MISMATCH 64:6c:80:0b:e3:47
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-72 fc=0x40 seq_ctrl=0x30 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-72 fc=0x40 seq_ctrl=0x40 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=1
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-63 fc=0x40 seq_ctrl=0x70 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-65 fc=0x40 seq_ctrl=0x80 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=2
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-57 fc=0x40 seq_ctrl=0x90 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=3
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0xf0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x100 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+wlan1: STA 64:6c:80:0b:e3:47 WPA: EAPOL-Key timeout
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state PTKSTART
+wlan1: STA 64:6c:80:0b:e3:47 WPA: sending 1/4 msg of 4-Way Handshake
+WPA: Send EAPOL(version=2 secure=0 mic=0 ack=1 install=0 pairwise=1 kde_len=0 keyidx=0 encr=0)
+WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+nl80211: Send over control port dest=64:6c:80:0b:e3:47 proto=0x888e len=99 no_encrypt=1
+nl80211: tx_control_port cookie=0xda
+WPA: Use EAPOL-Key timeout of 1000 ms (retry counter 2)
+nl80211: BSS Event 129 (NL80211_CMD_CONTROL_PORT_FRAME) received for wlan1
+wlan1: Event EAPOL_RX (23) received
+IEEE 802.1X: 144 bytes from 64:6c:80:0b:e3:47
+   IEEE 802.1X: version=1 type=3 length=140
+WPA: Received EAPOL-Key from 64:6c:80:0b:e3:47 key_info=0x10a type=2 mic_len=16 key_data_length=45
+WPA: Received Key Nonce - hexdump(len=32): 21 f3 9b 3e 88 06 60 a3 88 70 db 92 50 07 b2 1f ad dc 10 7a 32 73 30 dc 17 b8 aa e0 d2 b8 aa 06
+WPA: Received Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 02
+wlan1: STA 64:6c:80:0b:e3:47 WPA: received EAPOL-Key frame (2/4 Pairwise)
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state PTKCALCNEGOTIATING
+Searching a PSK for 64:6c:80:0b:e3:47 prev_psk=(nil)
+WPA: PTK derivation using PRF(SHA1)
+WPA: PTK derivation - A1=aa:06:18:62:2c:8b A2=64:6c:80:0b:e3:47
+WPA: Nonce1 - hexdump(len=32): db b6 cd 76 2d 7d f0 cd de e6 c6 1a 37 28 4b 3e fa 8a 71 c1 6c 6d 84 95 ea 5f b6 99 9b 7f 84 44
+WPA: Nonce2 - hexdump(len=32): 21 f3 9b 3e 88 06 60 a3 88 70 db 92 50 07 b2 1f ad dc 10 7a 32 73 30 dc 17 b8 aa e0 d2 b8 aa 06
+WPA: PMK - hexdump(len=32): [REMOVED]
+WPA: PTK - hexdump(len=48): [REMOVED]
+WPA: KCK - hexdump(len=16): [REMOVED]
+WPA: KEK - hexdump(len=16): [REMOVED]
+WPA: TK - hexdump(len=16): [REMOVED]
+WPA: EAPOL-Key MIC using HMAC-SHA1
+Anonymous Msg2 key information received **--> - hexdump(len=45): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00 08 3e 45 28 12 24 3c 0a 7d 3b d2 fa 52 63 4b 48 1b 7c 7f 1a cc dd ee
+Anonymous Msg2 RSN information received **--> - hexdump(len=45): [NULL]
+Anonymous Msg2 WPA information received **--> - hexdump(len=45): [NULL]
+wlan1: STA 64:6c:80:0b:e3:47 WPA: WPA IE from (Re)AssocReq did not match with msg 2/4
+WPA IE in AssocReq - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 00 00
+WPA IE in msg 2/4 - hexdump(len=0): [NULL]
+wpa_sta_disconnect STA 64:6c:80:0b:e3:47 (reason 2)
+hostapd_wpa_auth_disconnect: WPA authenticator requests disconnect: STA 64:6c:80:0b:e3:47 reason 2
+wlan1: ap_sta_disconnect addr 64:6c:80:0b:e3:47 reason=2
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=0 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0xc0 (WLAN_FC_STYPE_DEAUTH) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x4 flags_or=0x4 flags_and=0xfffffff5 authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 WPA: event 3 notification
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909d430 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+wlan1: ap_sta_disconnect: reschedule ap_handle_timer timeout for 64:6c:80:0b:e3:47 (5 seconds - AP_MAX_INACTIVITY_AFTER_DEAUTH)
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state DISCONNECTED
+WPA: 64:6c:80:0b:e3:47 WPA_PTK entering state INITIALIZE
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909d430 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+nl80211: Set STA flags - ifname=wlan1 addr=64:6c:80:0b:e3:47 total_flags=0x4 flags_or=0x0 flags_and=0xfffffffe authorized=0
+wlan1: STA 64:6c:80:0b:e3:47 IEEE 802.1X: unauthorizing port
+nl80211: Drv Event 139 (NL80211_CMD_CONTROL_PORT_FRAME_TX_STATUS) received for wlan1
+nl80211: Control port TX status (ack=1), cookie=218
+wlan1: Event EAPOL_TX_STATUS (37) received
+Ignore TX status for Data frame to STA 64:6c:80:0b:e3:47 that is not currently associated
+nl80211: Drv Event 60 (NL80211_CMD_FRAME_TX_STATUS) received for wlan1
+nl80211: Frame TX status event A1=64:6c:80:0b:e3:47 stype=12 cookie=0xdb ack=1
+wlan1: Event TX_STATUS (16) received
+mgmt::deauth cb
+STA 64:6c:80:0b:e3:47 acknowledged deauth
+wlan1: Deauthentication callback for STA 64:6c:80:0b:e3:47
+wlan1: Removing STA 64:6c:80:0b:e3:47 from kernel driver
+nl80211: sta_remove -> DEL_STATION wlan1 64:6c:80:0b:e3:47 --> 0 (Success)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DEAUTHENTICATE.indication(64:6c:80:0b:e3:47, 2)
+wlan1: STA 64:6c:80:0b:e3:47 MLME: MLME-DELETEKEYS.request(64:6c:80:0b:e3:47)
+wpa_driver_nl80211_set_key: ifindex=5 (wlan1) alg=0 addr=0x558909d430 key_idx=0 set_tx=1 seq_len=0 key_len=0 key_flag=0x20
+nl80211: DEL_KEY
+   addr=64:6c:80:0b:e3:47
+   pairwise key
+nl80211: Drv Event 20 (NL80211_CMD_DEL_STATION) received for wlan1
+nl80211: Delete station 64:6c:80:0b:e3:47
+nl80211: BSS Event 83 (NL80211_CMD_UNEXPECTED_FRAME) received for wlan1
+wlan1: Event RX_FROM_UNKNOWN (17) received
+Data/PS-poll frame from not associated STA 64:6c:80:0b:e3:47
+Association Response to the STA has already been sent, but no TX status yet known - ignore Class 3 frame issue with 64:6c:80:0b:e3:47
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-41 fc=0x40 seq_ctrl=0x130 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-42 fc=0x40 seq_ctrl=0x140 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+nl80211: send_mlme - da=64:6c:80:0b:e3:47 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-43 fc=0x40 seq_ctrl=0x150 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-45 fc=0x40 seq_ctrl=0x160 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=7
+nl80211: BSS Event 83 (NL80211_CMD_UNEXPECTED_FRAME) received for wlan1
+wlan1: Event RX_FROM_UNKNOWN (17) received
+Data/PS-poll frame from not associated STA 64:6c:80:0b:e3:47
+Association Response to the STA has already been sent, but no TX status yet known - ignore Class 3 frame issue with 64:6c:80:0b:e3:47
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:de:eb:59 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-84 fc=0x40 seq_ctrl=0x5a30 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=111
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=5
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:de:eb:59 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x5a70 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=111
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=e4:5f:01:de:eb:59 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-85 fc=0x40 seq_ctrl=0x5a80 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=104
+nl80211: send_mlme - da=e4:5f:01:de:eb:59 noack=1 freq=0 no_cck=0 offchanok=0 wait_time=0 no_encrypt=0 fc=0x50 (WLAN_FC_STYPE_PROBE_RESP) nlmode=3
+nl80211: send_mlme - Use bss->freq=2437
+nl80211: send_mlme -> send_frame_cmd
+nl80211: Drop oldest pending send frame cookie 0x0
+nl80211: BSS Event 83 (NL80211_CMD_UNEXPECTED_FRAME) received for wlan1
+wlan1: Event RX_FROM_UNKNOWN (17) received
+Data/PS-poll frame from not associated STA 64:6c:80:0b:e3:47
+Association Response to the STA has already been sent, but no TX status yet known - ignore Class 3 frame issue with 64:6c:80:0b:e3:47
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-62 fc=0x40 seq_ctrl=0x1c0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=9
+nl80211: BSS Event 83 (NL80211_CMD_UNEXPECTED_FRAME) received for wlan1
+wlan1: Event RX_FROM_UNKNOWN (17) received
+Data/PS-poll frame from not associated STA 64:6c:80:0b:e3:47
+Association Response to the STA has already been sent, but no TX status yet known - ignore Class 3 frame issue with 64:6c:80:0b:e3:47
+nl80211: BSS Event 83 (NL80211_CMD_UNEXPECTED_FRAME) received for wlan1
+wlan1: Event RX_FROM_UNKNOWN (17) received
+Data/PS-poll frame from not associated STA 64:6c:80:0b:e3:47
+Association Response to the STA has already been sent, but no TX status yet known - ignore Class 3 frame issue with 64:6c:80:0b:e3:47
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-66 fc=0x40 seq_ctrl=0x1f0 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=92
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-67 fc=0x40 seq_ctrl=0x200 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=10
+nl80211: BSS Event 59 (NL80211_CMD_FRAME) received for wlan1
+nl80211: RX frame da=ff:ff:ff:ff:ff:ff sa=64:6c:80:0b:e3:47 bssid=ff:ff:ff:ff:ff:ff freq=2437 ssi_signal=-77 fc=0x40 seq_ctrl=0x220 stype=4 (WLAN_FC_STYPE_PROBE_REQ) len=83
+Ignore Probe Request due to DS Params mismatch: chan=6 != ds.chan=11
+nl80211: BSS Event 83 (NL80211_CMD_UNEXPECTED_FRAME) received for wlan1
+wlan1: Event RX_FROM_UNKNOWN (17) received
+Data/PS-poll frame from not associated STA 64:6c:80:0b:e3:47
+Association Response to the STA has already been sent, but no TX status yet known - ignore Class 3 frame issue with 64:6c:80:0b:e3:47
+wlan1: STA 64:6c:80:0b:e3:47 WPA: EAPOL-Key timeout
